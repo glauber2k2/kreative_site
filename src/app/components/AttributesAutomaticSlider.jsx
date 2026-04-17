@@ -6,44 +6,46 @@ import AutoScroll from "embla-carousel-auto-scroll";
 import {
   Zap,
   ShieldCheck,
-  CreditCard,
-  Scaling,
-  Brain,
-  MousePointerClick,
+  TrendingUp,
+  Target,
+  Award,
+  Users,
+  BarChart,
+  BadgeCheck,
 } from "lucide-react";
 
 const SLIDES_DATA = [
   {
-    icon: <Scaling size={26} className="text-indigo-500" />,
-    title: "Design Responsivo",
+    icon: <ShieldCheck size={26} className="text-[#5233FD]" />,
+    title: "Confiança e Segurança",
   },
   {
-    icon: <CreditCard size={26} className="text-indigo-500" />,
-    title: "Pagamento Seguro",
+    icon: <TrendingUp size={26} className="text-[#5233FD]" />,
+    title: "Foco em Resultados",
   },
   {
-    icon: <MousePointerClick size={26} className="text-indigo-500" />,
-    title: "Estrutura Interativa",
+    icon: <Target size={26} className="text-[#5233FD]" />,
+    title: "Estratégias Validadas",
   },
   {
-    icon: <Brain size={26} className="text-indigo-500" />,
-    title: "Otimizado por IA",
+    icon: <Award size={26} className="text-[#5233FD]" />,
+    title: "Qualidade Premium",
   },
   {
-    icon: <Zap size={26} className="text-indigo-500" />,
-    title: "Velocidade",
+    icon: <Users size={26} className="text-[#5233FD]" />,
+    title: "Equipe Especializada",
   },
   {
-    icon: <ShieldCheck size={26} className="text-indigo-500" />,
-    title: "Equipe Especialista",
+    icon: <BarChart size={26} className="text-[#5233FD]" />,
+    title: "Transparência nos Dados",
   },
   {
-    icon: <ShieldCheck size={26} className="text-indigo-500" />,
-    title: "Equipe Especialista",
+    icon: <BadgeCheck size={26} className="text-[#5233FD]" />,
+    title: "Agência Certificada",
   },
   {
-    icon: <ShieldCheck size={26} className="text-indigo-500" />,
-    title: "Equipe Especialista",
+    icon: <Zap size={26} className="text-[#5233FD]" />,
+    title: "Execução Rápida",
   },
 ];
 
@@ -57,7 +59,7 @@ export function AttributeAutomaticSlider() {
   ]);
 
   return (
-    <div className="w-full bg-[#060c11] py-4">
+    <div className="w-full bg-black py-4">
       <div
         className="overflow-hidden [mask-image:linear-gradient(to_right,transparent,black_15%,black_85%,transparent)] max-w-7xl mx-auto"
         ref={emblaRef}

@@ -10,6 +10,7 @@ import { CircleHelp } from "lucide-react";
 export default function Faq() {
   return (
     <div
+      id="faq"
       className="md:min-h-screen w-full bg-[#060c11] flex py-10 md:py-20 justify-center  text-white via-55%"
       style={{
         background:
@@ -25,61 +26,54 @@ export default function Faq() {
         <AccordionRoot className="mt-8 w-full sm:max-w-4xl space-y-4">
           <AccordionItem value="criacao">
             <AccordionTrigger>
-              Como funciona o processo de Criação?
+              Como funciona o processo de criação dos vídeos?
             </AccordionTrigger>
             <AccordionContent>
               <ol className="space-y-4 p-2">
                 <li>
                   <div>
-                    <strong>Primeiro, uma boa conversa:</strong>
+                    <strong>1. Alinhamento e Briefing:</strong>
                     <p className="text-gray-400">
-                      Vamos marcar um papo para você nos contar tudo sobre sua
-                      ideia e o que você espera do projeto.
+                      Entendemos o seu negócio, os seus objetivos e quem é o
+                      seu público-alvo para criar a melhor estratégia.
                     </p>
                   </div>
                 </li>
                 <li>
                   <div>
-                    <strong>Um rascunho da página:</strong>
+                    <strong>2. Criação do Roteiro:</strong>
                     <p className="text-gray-400">
-                      Criamos um esboço simples, como um desenho, para você ver
-                      e aprovar a organização inicial do site.
+                      Desenvolvemos roteiros persuasivos focados em retenção
+                      e alta conversão para o seu nicho.
                     </p>
                   </div>
                 </li>
                 <li>
                   <div>
-                    <strong>Dando vida ao visual:</strong>
+                    <strong>3. Produção e Captação:</strong>
                     <p className="text-gray-400">
-                      Com o rascunho aprovado, a gente começa a criar o visual
-                      completo, com cores, fontes e imagens.
+                      Nossa equipe entra em ação para produzir o material,
+                      garantindo um visual profissional e atrativo.
                     </p>
                   </div>
                 </li>
                 <li>
                   <div>
-                    <strong>Sua aprovação final:</strong>
+                    <strong>4. Edição Dinâmica:</strong>
                     <p className="text-gray-400">
-                      Você olha o resultado final e diz se está tudo certo ou se
-                      precisa de algum ajuste antes de continuarmos.
+                      Adicionamos efeitos, transições e trilha sonora
+                      estratégica para prender a atenção do seu cliente do
+                      início ao fim.
                     </p>
                   </div>
                 </li>
                 <li>
                   <div>
-                    <strong>Deixando tudo mais rápido:</strong>
+                    <strong>5. Entrega Final:</strong>
                     <p className="text-gray-400">
-                      Nesta etapa, fazemos ajustes técnicos para garantir que
-                      seu site carregue bem rápido para todo mundo.
-                    </p>
-                  </div>
-                </li>
-                <li>
-                  <div>
-                    <strong>Seu site no ar!</strong>
-                    <p className="text-gray-400">
-                      É aqui que colocamos seu site online, prontinho para você
-                      usar e começar a ter resultados.
+                      Você recebe os vídeos nos formatos ideais, prontos
+                      para subir nas suas campanhas de anúncios e escalar
+                      suas vendas.
                     </p>
                   </div>
                 </li>
@@ -97,49 +91,47 @@ export default function Faq() {
             </AccordionContent>
           </AccordionItem>
 
-          <AccordionItem value="ia">
+          <AccordionItem value="servicos">
             <AccordionTrigger>
-              Como é utilizada IA na criação do site?
+              Vocês fazem apenas os vídeos ou também gerenciam os anúncios?
             </AccordionTrigger>
             <AccordionContent>
               <p>
-                Nosso site é potencializado por inteligência artificial para
-                entregar uma experiência mais estratégica e eficiente. A IA
-                analisa o nicho de mercado da página e o perfil do público-alvo
-                para direcionar tanto a estrutura quanto a copy de forma
-                persuasiva e personalizada. Isso significa que cada elemento do
-                site,desde os títulos até as chamadas para ação é otimizado para
-                atrair, engajar e converter com mais precisão.
+                Nós somos uma agência completa! Além de produzir criativos
+                de alta conversão, também oferecemos o serviço de gestão de
+                tráfego pago. Podemos criar as campanhas, testar os vídeos e
+                otimizar os resultados para garantir o melhor Retorno Sobre
+                o Investimento (ROI) para a sua empresa.
               </p>
             </AccordionContent>
           </AccordionItem>
 
           <AccordionItem value="tempo">
             <AccordionTrigger>
-              Quanto tempo leva para o projeto ficar pronto?
+              Quanto tempo leva para os vídeos ficarem prontos?
             </AccordionTrigger>
             <AccordionContent>
               <p>
-                O tempo de desenvolvimento pode variar conforme as demandas de
-                cada projeto. Para landing pages, o prazo costuma ser de 2 a 5
-                dias úteis, de acordo com o nível de complexidade e os detalhes
-                solicitados. Já para sites completos, o desenvolvimento
-                geralmente leva entre 4 a 7 dias úteis. A participação ativa do
-                cliente — como o envio rápido de informações e feedback — também
-                pode influenciar diretamente na velocidade de entrega.
+                O prazo de entrega costuma variar de 3 a 7 dias úteis,
+                dependendo da complexidade da produção (animação, gravação
+                local, edição avançada). Trabalhamos com agilidade para que
+                você consiga iniciar suas campanhas o mais rápido possível,
+                sem abrir mão das técnicas de alta conversão.
               </p>
             </AccordionContent>
           </AccordionItem>
 
-          <AccordionItem value="responsividade">
-            <AccordionTrigger>As páginas são responsivas?</AccordionTrigger>
+          <AccordionItem value="plataformas">
+            <AccordionTrigger>
+              Os vídeos são otimizados para quais plataformas?
+            </AccordionTrigger>
             <AccordionContent>
               <p>
-                Sim! Todos os nossos sites são totalmente responsivos. Isso
-                significa que eles se adaptam automaticamente a diferentes
-                tamanhos de tela, oferecendo uma ótima experiência tanto em
-                dispositivos móveis, como celulares e tablets, quanto em telas
-                maiores, como monitores e televisões.
+                Entregamos os materiais já nos formatos e durações ideais
+                para as principais plataformas de anúncios do mercado: Meta
+                Ads (Instagram e Facebook), TikTok Ads e YouTube Ads. Aplicamos
+                as melhores práticas específicas de cada rede para maximizar
+                a retenção e a taxa de cliques (CTR).
               </p>
             </AccordionContent>
           </AccordionItem>

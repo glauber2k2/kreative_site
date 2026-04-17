@@ -7,8 +7,8 @@ const poppins = Poppins({
 });
 
 const SITE_URL = "https://monteiroconnect.com.br";
-const SITE_NAME = "Crie seu site profissional - Monteiro Connect";
-const DEFAULT_TITLE = "Monteiro Connect";
+const SITE_NAME = "Conquiste sua presença digital - Kreative Agência";
+const DEFAULT_TITLE = "Kreative";
 const DEFAULT_DESCRIPTION =
   "Transforme sua presença online com um site profissional, rápido e responsivo. Solicite seu orçamento agora e destaque-se no digital!";
 const OG_IMAGE_URL = `${SITE_URL}/banner_monteiro_connect.jpg`;

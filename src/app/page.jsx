@@ -14,7 +14,7 @@ export default function Home() {
       <TopBar />
       <Presentation />
       <AttributeAutomaticSlider />
-      <Projects />
+      {/* <Projects /> */}
       <About />
       <Pillars />
       <Ai />

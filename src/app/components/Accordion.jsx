@@ -67,7 +67,7 @@ const AccordionTrigger = ({ children, ...props }) => {
   return (
     <button
       onClick={() => toggleItem(itemValue)}
-      className="w-full flex justify-between items-center py-4 px-6 text-left font-semibold text-lg hover:bg-black/50 transition-colors duration-300 text-blue-400"
+      className="w-full flex justify-between items-center py-4 px-6 text-left font-semibold text-lg hover:bg-black/50 transition-colors duration-300"
       aria-expanded={isOpen}
       aria-controls={`accordion-content-${itemValue}`}
       {...props}
