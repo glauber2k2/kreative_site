@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Presentation() {
   return (
-    <div className=" w-full bg-gradient-to-tl from-black via-black to-[#5233FD] text-white via-55%">
+    <div className=" w-full bg-gradient-to-tl from-black via-black to-[#3a0088] text-white via-55%">
       <div className="max-w-7xl mx-auto px-6 sm:px-6 lg:px-8 md:items-center justify-end md:flex-row lg:min-h-screen gap-10 py-20 md:py-0 flex flex-col-reverse">
         <div className="w-full flex flex-col md:justify-center">
           <motion.div
@@ -51,7 +51,7 @@ export default function Presentation() {
           <div
             className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[70%] h-[70%] z-0 blur-3xl opacity-80"
             style={{
-              background: "radial-gradient(circle, #5233FD 0%, transparent 70%)",
+              background: "radial-gradient(circle, #3a0088 0%, transparent 70%)",
             }}
           />
           <img

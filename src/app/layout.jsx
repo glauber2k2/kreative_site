@@ -6,12 +6,12 @@ const poppins = Poppins({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
 
-const SITE_URL = "https://monteiroconnect.com.br";
-const SITE_NAME = "Conquiste sua presença digital - Kreative Agência";
-const DEFAULT_TITLE = "Kreative";
+const SITE_URL = "https://kreativeagency.com.br";
+const SITE_NAME = "Kreative Agência - Audiovisual e Marketing Estratégico";
+const DEFAULT_TITLE = "Kreative Agência";
 const DEFAULT_DESCRIPTION =
-  "Transforme sua presença online com um site profissional, rápido e responsivo. Solicite seu orçamento agora e destaque-se no digital!";
-const OG_IMAGE_URL = `${SITE_URL}/banner_monteiro_connect.jpg`;
+  "Transforme a atenção da sua audiência em vendas. A Kreative Agency une produção audiovisual de alto impacto, tráfego pago e marketing estratégico para escalar os resultados do seu negócio.";
+const OG_IMAGE_URL = `${SITE_URL}/bannerkreative.jpg`;
 
 export const metadata = {
   title: {
@@ -22,34 +22,24 @@ export const metadata = {
   applicationName: SITE_NAME,
   authors: [{ name: "Glauber Monteiro", url: SITE_URL }],
   keywords: [
-    "criação de sites",
-    "desenvolvimento de sites",
-    "agência de sites",
-    "empresa de criação de sites",
-    "sites profissionais",
-    "criação de sites profissionais em [sua cidade ou região]",
-    "empresa de desenvolvimento de sites responsivos",
-    "quanto custa um site profissional",
-    "criação de site personalizado para empresas",
-    "desenvolvimento web com foco em conversão",
-    "monteiro connect criação de sites",
-    "monteiro connect agência digital",
-    "monteiro connect desenvolvimento web",
-    "monteiro connect sites profissionais",
-    "monteiro connect soluções digitais",
-    "design de sites modernos",
-    "desenvolvimento de landing pages",
-    "otimização de sites para SEO",
-    "integração com redes sociais e WhatsApp",
-    "hospedagem e manutenção de sites",
-    "criação de portfólios online",
-    "sites para pequenas empresas",
-    "sites com WordPress",
-    "sites com HTML5 e CSS3",
-    "sites responsivos mobile",
-    "sites otimizados para Google",
-    "performance e velocidade de carregamento",
-    "UI/UX design profissional",
+    "produção audiovisual",
+    "agência de vídeos",
+    "vídeos corporativos",
+    "edição de vídeo",
+    "vídeos para redes sociais",
+    "criativos para anúncios",
+    "vídeos de alta conversão",
+    "estratégia de vendas",
+    "marketing audiovisual",
+    "lançamentos",
+    "gravação de vídeos",
+    "audiovisual premium",
+    "copywriting de conversão",
+    "kreative agência",
+    "agência de marketing e audiovisual",
+    "vídeos para tiktok e reels",
+    "produção de conteúdo",
+    "gestão de tráfego e vídeos",
   ],
   openGraph: {
     type: "website",
@@ -62,7 +52,7 @@ export const metadata = {
         url: OG_IMAGE_URL,
         width: 1200,
         height: 630,
-        alt: "Logo da Monteiro Connect",
+        alt: "Logo da Kreative Agency",
       },
     ],
     locale: "pt_BR",

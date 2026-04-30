@@ -11,10 +11,10 @@ export default function Faq() {
   return (
     <div
       id="faq"
-      className="md:min-h-screen w-full bg-[#060c11] flex py-10 md:py-20 justify-center  text-white via-55%"
+      className="md:min-h-screen w-full bg-black flex py-10 md:py-20 justify-center  text-white via-55%"
       style={{
         background:
-          "radial-gradient(ellipse 80% 90% at center, #312e8140 0%, #060c11 50%)",
+          "radial-gradient(ellipse 80% 90% at center, #312e8140 0%, #000000 50%)",
       }}
     >
       <div className="max-w-7xl mx-auto px-6 flex flex-col w-full items-center">
@@ -85,8 +85,8 @@ export default function Faq() {
             <AccordionTrigger>Quais as formas de pagamento?</AccordionTrigger>
             <AccordionContent>
               <ul className="list-disc space-y-2 pl-6">
-                <li>PIX (20% de Desconto.)</li>
-                <li>Cartão de crédito em até 12x sem juros.</li>
+                <li>PIX ( 20% de Desconto. )</li>
+                <li>Cartão de crédito em até 12x ( com condições especiais )</li>
               </ul>
             </AccordionContent>
           </AccordionItem>

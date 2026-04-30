@@ -3,12 +3,12 @@ import React from "react";
 
 export default function Pillars() {
   return (
-    <div className="w-full py-10 lg:py-20 bg-[#060c11] flex items-center justify-center text-white">
+    <div className="w-full py-10 lg:py-20 bg-black flex items-center justify-center text-white">
       <div className="max-w-7xl mx-auto px-6 w-full flex items-center justify-between gap-8 flex-col sm:flex-row relative">
         <div className=" flex flex-col lg:w-1/2">
           <h1 className="text-2xl sm:text-3xl md:text-4xl font-semibold leading-snug">
             Nosso trabalho segue <br />
-            <span className="text-[#5233FD] font-bold md:text-5xl">4 </span>
+            <span className="text-[#5233fc] font-bold md:text-5xl">4 </span>
             importantes pilares
           </h1>
 
@@ -19,19 +19,19 @@ export default function Pillars() {
 
           <ul className="mt-6 md:mt-10 md:text-xl space-y-2 lg:space-y-4">
             <li className="flex gap-2 items-center">
-              <Check size={20} className="text-[#5233FD]" />
+              <Check size={20} className="text-[#5233fc]" />
               Audiovisual Premium
             </li>
             <li className="flex gap-2 items-center">
-              <Check size={20} className="text-[#5233FD]" />
+              <Check size={20} className="text-[#5233fc]" />
               Estratégia de Conversão
             </li>
             <li className="flex gap-2 items-center">
-              <Check size={20} className="text-[#5233FD]" />
+              <Check size={20} className="text-[#5233fc]" />
               Retenção de Audiência
             </li>
             <li className="flex gap-2 items-center">
-              <Check size={20} className="text-[#5233FD]" />
+              <Check size={20} className="text-[#5233fc]" />
               Foco em Resultados
             </li>
           </ul>

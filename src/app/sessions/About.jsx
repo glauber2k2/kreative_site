@@ -7,7 +7,7 @@ export default function About() {
       className=" w-full  flex py-10 md:py-20 justify-center text-white"
       style={{
         background:
-          "radial-gradient(ellipse 90% 100% at center, #5233FD60 0%, #000000ff 50%)",
+          "radial-gradient(ellipse 90% 100% at center, #3a008860 0%, #000000ff 50%)",
       }}
     >
       <div className="max-w-7xl mx-auto px-6 flex justify-between gap-10 w-full flex-col md:flex-row">
@@ -17,7 +17,7 @@ export default function About() {
           className="w-[500px] h-[500px] object-cover rounded-2xl hidden lg:block"
         />
         <div className="flex flex-col justify-center">
-          <h1 className="text-2xl md:text-4xl lg:text-5xl border-l-4 border-[#5233FD] w-fit pl-4 font-medium mb-8">
+          <h1 className="text-2xl md:text-4xl lg:text-5xl border-l-4 border-[#5233fc] w-fit pl-4 font-medium mb-8">
             Quem somos?
           </h1>
           <h2 className="text-gray-300 mb-6 text-xs sm:text-sm xl:text-base">
@@ -37,29 +37,29 @@ export default function About() {
             className="flex flex-wrap md:gap-4 gap-2
            items-center mb-6 text-xs xl:text-base justify-center md:justify-start"
           >
-            <span className="px-4 py-2 bg-[#5233FD] font-bold text-white rounded-full">
+            <span className="px-4 py-2 bg-[#5233fc] font-bold text-white rounded-full">
               Estratégia de Vendas
             </span>
-            <span className="px-4 py-2 bg-[#5233FD] font-bold text-white rounded-full">
+            <span className="px-4 py-2 bg-[#5233fc] font-bold text-white rounded-full">
               Audiovisual Premium
             </span>
-            <span className="px-4 py-2 bg-[#5233FD] font-bold text-white rounded-full">
+            <span className="px-4 py-2 bg-[#5233fc] font-bold text-white rounded-full">
               Lançamentos
             </span>
-            <span className="px-4 py-2 bg-[#5233FD] font-bold text-white rounded-full">
+            <span className="px-4 py-2 bg-[#5233fc] font-bold text-white rounded-full">
               Social Media
             </span>
-            <span className="px-4 py-2 bg-[#5233FD] font-bold text-white rounded-full">
+            <span className="px-4 py-2 bg-[#5233fc] font-bold text-white rounded-full">
               Copywriting de Conversão
             </span>
-            <span className="px-4 py-2 bg-[#5233FD] font-bold text-white rounded-full">
+            <span className="px-4 py-2 bg-[#5233fc] font-bold text-white rounded-full">
               Criação e Identidade
             </span>
           </div>
           <a
             href="https://wa.me/message/5LIHPF2ZVXJZN1"
             target="_blank"
-            className="mt-2 w-auto px-6 py-3 font-bold bg-[#5233FD] text-white rounded-full text-center uppercase tracking-wide hover:scale-105 transition-transform"
+            className="mt-2 w-auto px-6 py-3 font-bold bg-[#5233fc] text-white rounded-full text-center uppercase tracking-wide hover:scale-105 transition-transform"
           >
             Agendar Reunião Estratégica
           </a>
