@@ -12,7 +12,7 @@ export default function About() {
     >
       <div className="max-w-7xl mx-auto px-6 flex justify-between gap-10 w-full flex-col md:flex-row">
         <img
-          src="/assets/logoimage.png"
+          src="/assets/logo_branca_roxa.png"
           alt=""
           className="w-[500px] h-[500px] object-cover rounded-2xl hidden lg:block"
         />
