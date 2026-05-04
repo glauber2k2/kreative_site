@@ -8,7 +8,7 @@ import {
   CarouselSlide,
 } from "../components/SliderParallax";
 
-export default function Projects() {
+export default function Feedbacks() {
   const options = { loop: true };
   const autoplayOptions = {
     delay: 5000,
