@@ -79,7 +79,6 @@ export default function Feedbacks() {
       name: "Cristiane Andrade",
       message: "A gente queria elogiar a organização do cronograma, porque isso realmente mudou nossa rotina aqui. Antes as postagens ficavam meio desorganizadas e a gente não tinha tanta visão do que ia ao ar, e agora está tudo muito mais claro e alinhado. Cosneguimos nos planejar melhor internamento e isso trouxe uma sensação muito mais profissional para a comunicação da marca!",
       role: "Gerenciamento de perfil",
-      avatar: "https://i.pravatar.cc/150?img=33"
     }
   ];
 
