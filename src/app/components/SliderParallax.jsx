@@ -162,9 +162,8 @@ function CarouselDots() {
           type="button"
         >
           <div
-            className={`md:size-3 size-2 rounded-full transition-colors duration-200 ${
-              index === selectedIndex ? "bg-indigo-900" : "bg-indigo-900/40"
-            }`}
+            className={`md:size-3 size-2 rounded-full transition-colors duration-200 ${index === selectedIndex ? "bg-indigo-900" : "bg-indigo-900/40"
+              }`}
           />
         </button>
       ))}
