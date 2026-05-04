@@ -8,6 +8,19 @@ import {
   CarouselSlide,
 } from "../components/SliderParallax";
 
+const getAvatarColors = (name) => {
+  const colors = [
+    "from-red-500 to-orange-500",
+    "from-emerald-400 to-cyan-400",
+    "from-blue-500 to-indigo-500",
+    "from-violet-500 to-purple-500",
+    "from-pink-500 to-rose-500",
+    "from-amber-400 to-orange-500",
+  ];
+  const charCode = name ? name.charCodeAt(0) : 0;
+  return colors[charCode % colors.length];
+};
+
 export default function Feedbacks() {
   const options = { loop: true };
   const autoplayOptions = {
@@ -22,7 +35,6 @@ export default function Feedbacks() {
       name: "Vanessa Virgínia",
       role: "Ensaio corporativo",
       message: "Finalmente estou apreciando com calma cada clique seu! Nem me aguentei já fui olhando as possibilidades de como postar kkkkkk ... Fique até inspirada a fazer citação sobre cada fase da minha vida, porque eu ameiiiii tudo 🥹 Tinha que ser VOCÊ! me senti tão segura e livre (você sabe que sou péssima quando se trata de fotos minhas kkk)",
-      avatar: "https://i.pravatar.cc/150?img=44"
     },
     {
       id: 2,
@@ -33,31 +45,27 @@ export default function Feedbacks() {
     },
     {
       id: 3,
-      name: "Hadassa Costa",
-      role: "Empresária",
+      name: "Ellen Silva",
+      role: "Cobertura de parto",
       message: "Eu acabei de ver as fotos aqui e tô sem reação... De verdade, você conseguiu registrar tudo de um jeito tão lindo e tão real. Tem foto que eu olho e me arrepio, sério. Você pegou cada detalhe, cada emoção...coisa que eu nem lembrava direito na hora. Obrigada por ter tido tanto cuidado comigo naquele momento. Bocê me deixou tranquila e isso fez toda diferença...Eu tô completamente apaixonada pelo resultado, de verdade.",
-      avatar: "https://i.pravatar.cc/150?img=27"
     },
     {
       id: 4,
       name: "Ana Paula",
       role: "Gerente de Projetos, Agência Luz",
       message: "Muito obrigada por todo amor, cuidado e dedicação no que faz. Amei muito seu trabalho. Que o senhor possa abençoar mais e mais a sua vida 🥰🫶",
-      avatar: "https://i.pravatar.cc/150?img=9"
     },
     {
       id: 5,
       name: "Erika Lima",
       role: "Cobertura de parto",
       message: "Eu ainda tô sem palavras para descrever o quanto eu amei seu trabalho! Desde o primeiro contato você foi super tenciosa, me deixou tranquila e explicou tudo com muita paciência. No dia, eu já me senti segura, mas quando recebi o material...foi outra coisa. Você conseguiu registrar exatamente o que eu sentia naquele momento. Não são so fotos, é memória, é sentimento. Obrigada por tanto cuidado e sensibilidade. 😭💓",
-      avatar: "https://i.pravatar.cc/150?img=15"
     },
     {
       id: 6,
-      name: "Tereza Alves",
-      role: "Gerente de Projetos, Agência Luz",
+      name: "Paula Cosmo",
+      role: "Gerenciamento de perfil",
       message: "Minha social media, depois dessas mudanças percebemos uma melhora significativa nos números. O alcance e o engajamento cresceram e os posts estão performando muito melhor do que antes...Dá pra ver que existe uma estratégia por trás de tudo, não são postaens aleatórias, e isso faz toda diferença nos resultados",
-      avatar: "https://i.pravatar.cc/150?img=23"
     },
     {
       id: 6,
@@ -108,8 +116,14 @@ export default function Feedbacks() {
                   <div className="flex items-center gap-5 ml-4">
                     <div className="relative">
                       <div className="absolute inset-0 bg-gradient-to-tr from-indigo-500 to-purple-500 rounded-full blur-sm opacity-50"></div>
-                      <div className="relative w-16 h-16 rounded-full overflow-hidden border-2 border-indigo-400 shrink-0">
-                        <img src={feedback.avatar} alt={feedback.name} className="w-full h-full object-cover" />
+                      <div className="relative w-16 h-16 rounded-full overflow-hidden border-2 border-indigo-400 shrink-0 bg-gray-800">
+                        {feedback.avatar ? (
+                          <img src={feedback.avatar} alt={feedback.name} className="w-full h-full object-cover" />
+                        ) : (
+                          <div className={`w-full h-full flex items-center justify-center bg-gradient-to-tr ${getAvatarColors(feedback.name)} text-white font-bold text-2xl`}>
+                            {feedback.name ? feedback.name.charAt(0).toUpperCase() : "?"}
+                          </div>
+                        )}
                       </div>
                     </div>
                     <div>
