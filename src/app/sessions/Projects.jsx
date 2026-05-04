@@ -47,8 +47,8 @@ export default function Feedbacks() {
     },
     {
       id: 5,
-      name: "Ana Luiza",
-      role: "Gerente de Projetos, Agência Luz",
+      name: "Erika Lima",
+      role: "Cobertura de parto",
       message: "Eu ainda tô sem palavras para descrever o quanto eu amei seu trabalho! Desde o primeiro contato você foi super tenciosa, me deixou tranquila e explicou tudo com muita paciência. No dia, eu já me senti segura, mas quando recebi o material...foi outra coisa. Você conseguiu registrar exatamente o que eu sentia naquele momento. Não são so fotos, é memória, é sentimento. Obrigada por tanto cuidado e sensibilidade. 😭💓",
       avatar: "https://i.pravatar.cc/150?img=15"
     },
