@@ -1,14 +1,14 @@
-import { Poppins } from "next/font/google";
+import { Montserrat } from "next/font/google";
 import "./globals.css";
 
-const poppins = Poppins({
+const montserrat = Montserrat({
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
 
 const SITE_URL = "https://kreativeagency.com.br";
-const SITE_NAME = "Kreative Agência - Audiovisual e Marketing Estratégico";
-const DEFAULT_TITLE = "Kreative Agência";
+const SITE_NAME = "Kreative Agency - Audiovisual e Marketing Estratégico";
+const DEFAULT_TITLE = "Kreative Agency";
 const DEFAULT_DESCRIPTION =
   "Transforme a atenção da sua audiência em vendas. A Kreative Agency une produção audiovisual de alto impacto, tráfego pago e marketing estratégico para escalar os resultados do seu negócio.";
 const OG_IMAGE_URL = `${SITE_URL}/bannerkreative.jpg`;
@@ -80,7 +80,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="pt-BR" className="scroll-smooth">
-      <body className={poppins.className}>{children}</body>
+      <body className={montserrat.className}>{children}</body>
     </html>
   );
 }

@@ -16,35 +16,35 @@ import {
 
 const SLIDES_DATA = [
   {
-    icon: <ShieldCheck size={26} className="text-[#5233FD]" />,
+    icon: <ShieldCheck size={26} className="text-[##7be0bc]" />,
     title: "Confiança e Segurança",
   },
   {
-    icon: <TrendingUp size={26} className="text-[#5233FD]" />,
+    icon: <TrendingUp size={26} className="text-[#7be0bc]" />,
     title: "Foco em Resultados",
   },
   {
-    icon: <Target size={26} className="text-[#5233FD]" />,
+    icon: <Target size={26} className="text-[#7be0bc]" />,
     title: "Estratégias Validadas",
   },
   {
-    icon: <Award size={26} className="text-[#5233FD]" />,
+    icon: <Award size={26} className="text-[#7be0bc]" />,
     title: "Qualidade Premium",
   },
   {
-    icon: <Users size={26} className="text-[#5233FD]" />,
+    icon: <Users size={26} className="text-[#7be0bc]" />,
     title: "Equipe Especializada",
   },
   {
-    icon: <BarChart size={26} className="text-[#5233FD]" />,
+    icon: <BarChart size={26} className="text-[#7be0bc]" />,
     title: "Transparência nos Dados",
   },
   {
-    icon: <BadgeCheck size={26} className="text-[#5233FD]" />,
+    icon: <BadgeCheck size={26} className="text-[#7be0bc]" />,
     title: "Agência Certificada",
   },
   {
-    icon: <Zap size={26} className="text-[#5233FD]" />,
+    icon: <Zap size={26} className="text-[#7be0bc]" />,
     title: "Execução Rápida",
   },
 ];

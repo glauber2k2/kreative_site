@@ -6,9 +6,9 @@ export default function TopBar() {
       <div className="max-w-7xl mx-auto px-4 flex items-center justify-between">
         <div className="flex items-center gap-4">
           <img
-            src="/assets/logokreative.png"
+            src="/assets/logoescrita_branca_roxa.png"
             alt="imagem da logo"
-            className="object-scale-down sm:w-[7rem] w-10"
+            className="object-scale-down sm:w-[7rem] w-28"
           />
           {/* <p className="text-sm sm:text-xl font-medium">Kreative.</p> */}
         </div>
@@ -23,7 +23,7 @@ export default function TopBar() {
           <a
             href="https://wa.me/message/5LIHPF2ZVXJZN1"
             target="_blank"
-            className="px-4 py-2 border border-[#5233FD] rounded-full md:text-base text-xs"
+            className="px-4 py-2 border-2 border-[#5233FD] rounded-full md:text-base text-sm"
           >
             Orçamento
           </a>

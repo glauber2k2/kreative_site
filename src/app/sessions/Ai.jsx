@@ -14,7 +14,7 @@ export default function Ai() {
           <h1 className="lg:text-4xl font-medium text-xs sm:text-lg">
             Potencializado com
           </h1>
-          <span className="bg-[#e0f7ed] w-fit text-sm sm:text-3xl lg:text-5xl p-3 font-bold text-[#1b0067]">
+          <span className="bg-[#7be0bc] w-fit text-sm sm:text-3xl lg:text-5xl p-3 font-bold text-[#1b0067]">
             Inteligencia Artificial
           </span>
           <article className="mt-4 md:mt-8 text-justify lg:text-lg sm:text-sm text-xs ">

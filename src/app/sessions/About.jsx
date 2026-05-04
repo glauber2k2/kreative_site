@@ -4,13 +4,13 @@ export default function About() {
   return (
     <div
       id="quemsomos"
-      className=" w-full  flex py-10 md:py-20 justify-center text-white"
+      className=" w-full flex py-10 md:py-20 justify-center text-white"
       style={{
         background:
           "radial-gradient(ellipse 90% 100% at center, #3a008860 0%, #000000ff 50%)",
       }}
     >
-      <div className="max-w-7xl mx-auto px-6 flex justify-between gap-10 w-full flex-col md:flex-row">
+      <div className="max-w-7xl mx-auto px-8 flex justify-between gap-10 w-full flex-col md:flex-row">
         <img
           src="/assets/logo_branca_roxa.png"
           alt=""
@@ -34,32 +34,32 @@ export default function About() {
             Conhecimento estratégico em:
           </h1>
           <div
-            className="flex flex-wrap md:gap-4 gap-2
+            className="grid grid-cols-3 lg:flex lg:flex-wrap md:gap-4 gap-2
            items-center mb-6 text-xs xl:text-base justify-center md:justify-start"
           >
-            <span className="px-4 py-2 bg-[#5233fc] font-bold text-white rounded-full">
+            <span className="px-4 py-2 bg-[#5233fc] font-bold text-white rounded-full h-full md:h-auto flex items-center justify-center ">
               Estratégia de Vendas
             </span>
-            <span className="px-4 py-2 bg-[#5233fc] font-bold text-white rounded-full">
+            <span className="px-4 py-2 bg-[#5233fc] font-bold text-white rounded-full h-full md:h-auto flex items-center justify-center">
               Audiovisual Premium
             </span>
-            <span className="px-4 py-2 bg-[#5233fc] font-bold text-white rounded-full">
+            <span className="px-4 py-2 bg-[#5233fc] font-bold text-white rounded-full h-full md:h-auto flex items-center justify-center">
               Lançamentos
             </span>
-            <span className="px-4 py-2 bg-[#5233fc] font-bold text-white rounded-full">
+            <span className="px-4 py-2 bg-[#5233fc] font-bold text-white rounded-full h-full md:h-auto flex items-center justify-center">
               Social Media
             </span>
-            <span className="px-4 py-2 bg-[#5233fc] font-bold text-white rounded-full">
+            <span className="px-4 py-2 bg-[#5233fc] font-bold text-white rounded-full h-full md:h-auto flex items-center justify-center">
               Copywriting de Conversão
             </span>
-            <span className="px-4 py-2 bg-[#5233fc] font-bold text-white rounded-full">
+            <span className="px-4 py-2 bg-[#5233fc] font-bold text-white rounded-full h-full md:h-auto flex items-center justify-center">
               Criação e Identidade
             </span>
           </div>
           <a
             href="https://wa.me/message/5LIHPF2ZVXJZN1"
             target="_blank"
-            className="mt-2 w-auto px-6 py-3 font-bold bg-[#5233fc] text-white rounded-full text-center uppercase tracking-wide hover:scale-105 transition-transform"
+            className="mt-2 w-auto px-6 py-3 font-bold bg-[#7be0bc] text-black rounded-full text-center uppercase tracking-wide hover:scale-105 transition-transform"
           >
             Agendar Reunião Estratégica
           </a>

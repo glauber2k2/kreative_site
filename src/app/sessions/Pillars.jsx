@@ -4,7 +4,7 @@ import React from "react";
 export default function Pillars() {
   return (
     <div className="w-full py-10 lg:py-20 bg-black flex items-center justify-center text-white">
-      <div className="max-w-7xl mx-auto px-6 w-full flex items-center justify-between gap-8 flex-col sm:flex-row relative">
+      <div className="max-w-7xl mx-auto px-8 w-full flex items-center justify-between gap-8 flex-col sm:flex-row relative">
         <div className=" flex flex-col lg:w-1/2">
           <h1 className="text-2xl sm:text-3xl md:text-4xl font-semibold leading-snug">
             Nosso trabalho segue <br />
@@ -19,19 +19,19 @@ export default function Pillars() {
 
           <ul className="mt-6 md:mt-10 md:text-xl space-y-2 lg:space-y-4">
             <li className="flex gap-2 items-center">
-              <Check size={20} className="text-[#5233fc]" />
+              <Check size={20} className="text-[#7be0bc]" />
               Audiovisual Premium
             </li>
             <li className="flex gap-2 items-center">
-              <Check size={20} className="text-[#5233fc]" />
+              <Check size={20} className="text-[#7be0bc]" />
               Estratégia de Conversão
             </li>
             <li className="flex gap-2 items-center">
-              <Check size={20} className="text-[#5233fc]" />
+              <Check size={20} className="text-[#7be0bc]" />
               Retenção de Audiência
             </li>
             <li className="flex gap-2 items-center">
-              <Check size={20} className="text-[#5233fc]" />
+              <Check size={20} className="text-[#7be0bc]" />
               Foco em Resultados
             </li>
           </ul>
@@ -39,7 +39,7 @@ export default function Pillars() {
         <img
           src="/assets/cerebro.png"
           alt=""
-          className="object-cover w-40 sm:w-1/3 absolute -bottom-4 right-7 sm:static"
+          className="object-cover w-40 sm:w-1/3 absolute -bottom-4 right-7 sm:static hidden sm:block"
         />
       </div>
     </div>
