@@ -19,8 +19,8 @@ export default function Feedbacks() {
   const feedbacks = [
     {
       id: 1,
-      name: "Gabrielly Guedes",
-      role: "Publicitária",
+      name: "Vanessa Virgínia",
+      role: "Ensaio corporativo",
       message: "Finalmente estou apreciando com calma cada clique seu! Nem me aguentei já fui olhando as possibilidades de como postar kkkkkk ... Fique até inspirada a fazer citação sobre cada fase da minha vida, porque eu ameiiiii tudo 🥹 Tinha que ser VOCÊ! me senti tão segura e livre (você sabe que sou péssima quando se trata de fotos minhas kkk)",
       avatar: "https://i.pravatar.cc/150?img=44"
     },
@@ -100,7 +100,7 @@ export default function Feedbacks() {
                     </div>
 
                     <p className="text-sm lg:text-xl text-gray-200 leading-relaxed relative z-10 font-medium">
-                      "{feedback.message}"
+                      &quot;{feedback.message}&quot;
                     </p>
                   </div>
 
