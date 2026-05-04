@@ -96,7 +96,7 @@ export default function Feedbacks() {
           <CarouselContainer>
             {feedbacks.map((feedback) => (
               <CarouselSlide key={feedback.id}>
-                <div className="w-full lg:w-3/4 mx-auto flex flex-col gap-8 py-4 px-2">
+                <div className="w-full lg:w-3/4 mx-auto flex flex-col gap-8 py-4 px-2 cursor-pointer select-none">
                   {/* Message Bubble */}
                   <div className="bg-gradient-to-r from-indigo-900/40 to-purple-900/20 p-8 lg:p-12 rounded-[2.5rem] rounded-bl-xl border border-indigo-500/30 shadow-[0_0_40px_rgba(79,70,229,0.15)] backdrop-blur-md relative transition-transform duration-300 hover:-translate-y-2 group h-96 md:h-80">
                     {/* Aspas decorativas */}
