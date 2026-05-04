@@ -68,9 +68,9 @@ export default function Feedbacks() {
     },
     {
       id: 7,
-      name: "Mateus Silva",
+      name: "Cristiane Andrade",
       message: "A gente queria elogiar a organização do cronograma, porque isso realmente mudou nossa rotina aqui. Antes as postagens ficavam meio desorganizadas e a gente não tinha tanta visão do que ia ao ar, e agora está tudo muito mais claro e alinhado. Cosneguimos nos planejar melhor internamento e isso trouxe uma sensação muito mais profissional para a comunicação da marca!",
-      role: "Gerente de Projetos, Agência Luz",
+      role: "Gerenciamento de perfil",
       avatar: "https://i.pravatar.cc/150?img=33"
     }
   ];
@@ -91,7 +91,7 @@ export default function Feedbacks() {
               <CarouselSlide key={feedback.id}>
                 <div className="w-full lg:w-3/4 mx-auto flex flex-col gap-8 py-4 px-2">
                   {/* Message Bubble */}
-                  <div className="bg-gradient-to-r from-indigo-900/40 to-purple-900/20 p-8 lg:p-12 rounded-[2.5rem] rounded-bl-xl border border-indigo-500/30 shadow-[0_0_40px_rgba(79,70,229,0.15)] backdrop-blur-md relative transition-transform duration-300 hover:-translate-y-2 group h-72">
+                  <div className="bg-gradient-to-r from-indigo-900/40 to-purple-900/20 p-8 lg:p-12 rounded-[2.5rem] rounded-bl-xl border border-indigo-500/30 shadow-[0_0_40px_rgba(79,70,229,0.15)] backdrop-blur-md relative transition-transform duration-300 hover:-translate-y-2 group h-96 md:h-80">
                     {/* Aspas decorativas */}
                     <div className="absolute top-8 right-8 text-indigo-400/10 group-hover:text-indigo-400/20 transition-colors duration-300">
                       <svg width="80" height="80" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -99,7 +99,7 @@ export default function Feedbacks() {
                       </svg>
                     </div>
 
-                    <p className="text-sm lg:text-xl text-gray-200 leading-relaxed relative z-10 font-medium">
+                    <p className="text-sm md:text-xl text-gray-200 leading-relaxed relative z-10 font-medium">
                       &quot;{feedback.message}&quot;
                     </p>
                   </div>
