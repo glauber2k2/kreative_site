@@ -2,33 +2,45 @@ import React from "react";
 
 export default function TopBar() {
   return (
-    <div className="w-full bg-black/5 p-2 top-0 fixed z-50 text-white backdrop-blur-sm">
-      <div className="max-w-7xl mx-auto px-4 flex items-center justify-between">
-        <div className="flex items-center gap-4">
-          <img
-            src="/assets/logoescrita_branca_roxa.png"
-            alt="imagem da logo"
-            className="object-scale-down sm:w-[7rem] w-28"
-          />
-          {/* <p className="text-sm sm:text-xl font-medium">Kreative.</p> */}
+    <header className="w-full border-b border-white/5 py-3 sm:py-4 top-0 fixed z-50 text-white backdrop-blur-md transition-all">
+      <div className="max-w-7xl mx-auto px-6 sm:px-8 flex items-center justify-between">
+
+        {/* Logo */}
+        <div className="flex items-center">
+          <a href="#">
+            <img
+              src="/assets/logoescrita_branca_roxa.png"
+              alt="Kreative Logo"
+              className="object-scale-down w-28 sm:w-32 hover:opacity-80 transition-opacity"
+            />
+          </a>
         </div>
 
-        <div className="flex items-center gap-12">
-          <a href="#quemsomos" className="hidden md:block">
-            Quem somos
-          </a>
-          <a href="#faq" className="hidden md:block">
-            FAQ
-          </a>
+        {/* Navigation */}
+        <nav className="flex items-center gap-6 sm:gap-10">
+          <div className="hidden md:flex items-center gap-8 text-sm font-medium text-gray-300">
+            <a href="#services" className="hover:text-[#7be0bc] hover:-translate-y-0.5 transition-all">
+              Serviços
+            </a>
+            <a href="#quemsomos" className="hover:text-[#7be0bc] hover:-translate-y-0.5 transition-all">
+              Sobre
+            </a>
+            <a href="#faq" className="hover:text-[#7be0bc] hover:-translate-y-0.5 transition-all">
+              FAQ
+            </a>
+          </div>
+
+          {/* CTA Button */}
           <a
             href="https://wa.me/message/5LIHPF2ZVXJZN1"
             target="_blank"
-            className="px-4 py-2 border-2 border-[#5233FD] rounded-full md:text-base text-sm"
+            rel="noreferrer"
+            className="px-5 py-2 sm:px-6 sm:py-2.5 bg-[#5233fc]/10 border border-[#5233fc] hover:bg-[#5233fc] rounded-full text-xs sm:text-sm font-bold tracking-wide uppercase transition-all duration-300 hover:shadow-[0_0_20px_rgba(82,51,252,0.5)]"
           >
             Orçamento
           </a>
-        </div>
+        </nav>
       </div>
-    </div>
+    </header>
   );
 }
