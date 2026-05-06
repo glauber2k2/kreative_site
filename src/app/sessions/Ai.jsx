@@ -1,31 +1,45 @@
 import React from "react";
+import { Sparkles } from "lucide-react";
 
 export default function Ai() {
   return (
-    <div className="w-full max-h-screen bg-black text-white py-10 sm:py-20 px-6">
-      <div className="max-w-7xl mx-auto flex h-full items-center lg:gap-20 gap-4 bg-gradient-to-r from-[#1b0067] to-[#3a0088] p-6 lg:p-10 backdrop-blur-sm rounded-3xl justify-center lg:justify-start">
-        <img
-          src="/assets/robot.png"
-          alt=""
-          className="object-scale-down lg:h-96 h-32 sm:h-56
-          "
-        />
-        <div className="flex flex-col lg:w-1/2">
-          <h1 className="lg:text-4xl font-medium text-xs sm:text-lg">
-            Potencializado com
-          </h1>
-          <span className="bg-[#7be0bc] w-fit text-sm sm:text-3xl lg:text-5xl p-3 font-bold text-[#1b0067]">
-            Inteligencia Artificial
-          </span>
-          <article className="mt-4 md:mt-8 text-justify lg:text-lg sm:text-sm text-xs ">
-            <span className="hidden sm:inline">
-              Utilizamos Inteligência Artificial de ponta na edição dos nossos vídeos{" "}
+    <section className="w-full bg-black text-white py-10 sm:py-24 px-4 sm:px-8 overflow-hidden relative">
+      {/* Background decoration */}
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-[#5233fc]/10 rounded-full blur-[120px] pointer-events-none"></div>
+
+      <div className="max-w-7xl mx-auto relative z-10 flex flex-col md:flex-row items-center gap-4 sm:gap-10 lg:gap-20 bg-gradient-to-br from-[#120a2e] to-[#0a0518] border border-[#5233fc]/30 p-5 sm:p-8 lg:p-16 rounded-3xl md:rounded-[2.5rem] shadow-[0_0_50px_rgba(82,51,252,0.15)] overflow-hidden">
+
+        {/* Subtle internal glow */}
+        <div className="absolute -top-10 -right-10 w-64 h-64 bg-[#7be0bc]/10 rounded-full blur-[80px]"></div>
+
+        <div className="w-full md:w-1/2 flex justify-center lg:justify-start">
+          <img
+            src="/assets/robot.png"
+            alt="Inteligência Artificial"
+            className="relative z-10 object-contain h-24 sm:h-64 lg:h-[400px] drop-shadow-[0_15px_30px_rgba(123,224,188,0.15)] hover:scale-105 transition-transform duration-700"
+          />
+        </div>
+
+        <div className="flex flex-col relative z-10 w-full md:w-1/2 items-center text-center md:items-start md:text-left">
+          <div className="inline-flex items-center gap-2 px-3 py-1.5 sm:px-4 sm:py-2 rounded-full border border-[#7be0bc]/30 bg-[#7be0bc]/10 text-[#7be0bc] text-[10px] sm:text-xs font-semibold tracking-wider uppercase mb-3 sm:mb-6 w-fit">
+            <Sparkles size={14} className="sm:w-4 sm:h-4" />
+            Inovação Tecnológica
+          </div>
+
+          <h2 className="text-2xl sm:text-4xl lg:text-5xl font-bold leading-tight mb-2 sm:mb-6">
+            Potencializado com <br className="hidden md:block" />
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#7be0bc] to-[#5233fc] mt-1 sm:mt-2 inline-block">
+              Inteligência Artificial
             </span>
-            para criar efeitos especiais cinematográficos que prendem a atenção
-            da sua audiência e destacam o seu conteúdo no mercado.
-          </article>
+          </h2>
+
+          <p className="text-gray-400 text-xs sm:text-base lg:text-lg leading-relaxed max-w-lg">
+            Usamos <strong className="text-white">IA de ponta</strong> para criar
+            efeitos cinematográficos impressionantes que prendem a atenção e destacam
+            o seu conteúdo no mercado digital.
+          </p>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

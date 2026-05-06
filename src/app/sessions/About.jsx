@@ -4,7 +4,7 @@ export default function About() {
   return (
     <section
       id="quemsomos"
-      className="w-full relative py-16 md:py-24 bg-[#020202] text-white overflow-hidden flex justify-center"
+      className="w-full relative py-16 md:py-24 bg-black text-white overflow-hidden flex justify-center"
     >
       {/* Background Glow */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-[#5233fc]/10 rounded-full blur-[100px] pointer-events-none"></div>
@@ -12,7 +12,7 @@ export default function About() {
       <div className="max-w-7xl mx-auto px-6 sm:px-8 relative z-10 flex flex-col lg:flex-row items-center gap-12 lg:gap-20 w-full">
 
         {/* Image Section */}
-        <div className="w-full lg:w-1/2 flex justify-center lg:justify-start">
+        <div className="hidden md:flex w-full lg:w-1/2 justify-center lg:justify-start">
           <div className="relative group">
             <div className="absolute -inset-1 bg-gradient-to-r from-[#5233fc] to-[#7be0bc] rounded-3xl blur opacity-30 group-hover:opacity-50 transition duration-700"></div>
             <img
@@ -37,7 +37,7 @@ export default function About() {
           </h1>
 
           <p className="text-gray-400 text-sm md:text-base lg:text-lg leading-relaxed mb-8 max-w-xl mx-auto lg:mx-0">
-            A <strong className="text-white">Kreative Agência</strong> é especializada em escalar empresas através de
+            A <strong className="text-white">Kreative Agency</strong> é especializada em escalar empresas através de
             marketing estratégico e produção audiovisual de alto impacto. Unimos criatividade,
             análise de dados e precisão técnica para construir ecossistemas de vendas focados no
             que realmente importa: <strong className="text-white">o seu lucro</strong>.
