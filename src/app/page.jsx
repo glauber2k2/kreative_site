@@ -7,6 +7,7 @@ import Footer from "./sessions/Footer";
 import Pillars from "./sessions/Pillars";
 import Presentation from "./sessions/Presentation";
 import Feedbacks from "./sessions/Projects";
+import Services from "./sessions/Services";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <AttributeAutomaticSlider />
       <Feedbacks />
       <About />
+      <Services />
       <Pillars />
       <Ai />
       <Faq />
