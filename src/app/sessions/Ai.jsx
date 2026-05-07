@@ -5,7 +5,7 @@ export default function Ai() {
   return (
     <section className="w-full bg-black text-white py-10 sm:py-24 px-4 sm:px-8 overflow-hidden relative">
       {/* Background decoration */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-[#5233fc]/10 rounded-full blur-[120px] pointer-events-none"></div>
+
 
       <div className="max-w-7xl mx-auto relative z-10 flex flex-col md:flex-row items-center gap-4 sm:gap-10 lg:gap-20 bg-gradient-to-br from-[#120a2e] to-[#0a0518] border border-[#5233fc]/30 p-5 sm:p-8 lg:p-16 rounded-3xl md:rounded-[2.5rem] shadow-[0_0_50px_rgba(82,51,252,0.15)] overflow-hidden">
 
