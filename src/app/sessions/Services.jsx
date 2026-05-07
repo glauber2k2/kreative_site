@@ -1,5 +1,5 @@
 import React from "react";
-import { MonitorSmartphone, Lightbulb, Video, Camera, Navigation, Sparkles } from "lucide-react";
+import { MonitorSmartphone, Lightbulb, Video, Camera, Globe, Sparkles } from "lucide-react";
 
 const services = [
   {
@@ -23,9 +23,9 @@ const services = [
     icon: <Camera className="w-6 h-6 sm:w-8 sm:h-8 text-[#5233fc]" />,
   },
   {
-    title: "Filmagem de Drone",
-    description: "Perspectivas aéreas incríveis que valorizam o seu projeto e impressionam seus clientes.",
-    icon: <Navigation className="w-6 h-6 sm:w-8 sm:h-8 text-[#7be0bc]" />,
+    title: "Criação de Sites",
+    description: "Desenvolvimento de sites profissionais, como landing pages, sites institucionais, etc.",
+    icon: <Globe className="w-6 h-6 sm:w-8 sm:h-8 text-[#7be0bc]" />,
   },
   {
     title: "Produção com IA",
