@@ -6,7 +6,7 @@ import Faq from "./sessions/Faq";
 import Footer from "./sessions/Footer";
 import Pillars from "./sessions/Pillars";
 import Presentation from "./sessions/Presentation";
-import Feedbacks from "./sessions/Projects";
+import Feedbacks from "./sessions/Feedbacks";
 import Services from "./sessions/Services";
 
 export default function Home() {
