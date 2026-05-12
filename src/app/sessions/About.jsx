@@ -30,7 +30,7 @@ export default function About() {
           </div>
 
           <h1 className="text-3xl md:text-5xl lg:text-5xl xl:text-6xl font-bold mb-6 leading-tight">
-            Nós construímos<br className="hidden md:block" />
+            Nós construímos <br className="hidden md:block" />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#5233fc] to-[#7be0bc]">
               seu próximo nível
             </span>

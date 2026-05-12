@@ -88,7 +88,7 @@ export default function Feedbacks() {
       className="w-full lg:min-h-screen bg-black text-white py-10 md:py-20 flex items-center"
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-8 flex flex-col h-full justify-center w-full">
-        <div className="text-4xl lg:text-5xl font-medium mb-16 text-center lg:text-left">
+        <div className="text-4xl lg:text-5xl font-medium mb-4 md:mb-16 text-center lg:text-left">
           O que <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-purple-500 font-bold">nossos clientes</span> dizem
         </div>
 
