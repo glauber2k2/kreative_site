@@ -21,7 +21,7 @@ export default function Home() {
       <Services />
       <Pillars />
       <Ai />
-      <Plans />
+      {/* <Plans />  */}
       <Faq />
       <Footer />
     </div>
