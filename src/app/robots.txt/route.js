@@ -2,7 +2,7 @@ export async function GET() {
   const robots = `User-agent: *
   Disallow:
   
-  Sitemap: https://www.monteiroconnect.com.br/sitemap.xml
+  Sitemap: https://kreativeagency.com.br/sitemap.xml
   `;
 
   return new Response(robots, {

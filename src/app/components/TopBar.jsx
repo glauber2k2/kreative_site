@@ -22,6 +22,9 @@ export default function TopBar() {
             <a href="#services" className="hover:text-[#7be0bc] hover:-translate-y-0.5 transition-all">
               Serviços
             </a>
+            <a href="#planos" className="hover:text-[#7be0bc] hover:-translate-y-0.5 transition-all">
+              Planos
+            </a>
             <a href="#quemsomos" className="hover:text-[#7be0bc] hover:-translate-y-0.5 transition-all">
               Sobre
             </a>

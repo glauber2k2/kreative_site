@@ -8,6 +8,7 @@ import Pillars from "./sessions/Pillars";
 import Presentation from "./sessions/Presentation";
 import Feedbacks from "./sessions/Feedbacks";
 import Services from "./sessions/Services";
+import Plans from "./sessions/Plans";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <Services />
       <Pillars />
       <Ai />
+      <Plans />
       <Faq />
       <Footer />
     </div>
