@@ -34,7 +34,7 @@ export default function Presentation() {
           </motion.div>
 
           <motion.p
-            className="text-gray-400 text-base sm:text-lg lg:text-xl mb-10 max-w-xl mx-auto md:mx-0 leading-relaxed"
+            className="text-gray-400 text-base sm:text-lg lg:text-xl mb-10 max-w-xl mx-auto md:mx-0 leading-relaxed text-justify"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3, duration: 0.8, ease: "easeOut" }}

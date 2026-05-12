@@ -36,7 +36,7 @@ export default function About() {
             </span>
           </h1>
 
-          <p className="text-gray-400 text-sm md:text-base lg:text-lg leading-relaxed mb-8 max-w-xl mx-auto lg:mx-0">
+          <p className="text-gray-400 text-sm md:text-base lg:text-lg leading-relaxed mb-8 max-w-xl mx-auto lg:mx-0 text-justify">
             A <strong className="text-white">Kreative Agency</strong> é especializada em escalar empresas através de
             marketing estratégico e produção audiovisual de alto impacto. Unimos criatividade,
             análise de dados e precisão técnica para construir ecossistemas de vendas focados no
